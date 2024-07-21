@@ -1,0 +1,7 @@
+<svg id="Like" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path" d="M0,0H48V48H0Z" fill="none"/>
+  <g id="Group" transform="translate(4 9)">
+    <path id="Path-2" data-name="Path" d="M.14,10.12v18l2.3.76a24.347,24.347,0,0,0,7.58,1.22H17.2a6,6,0,0,0,5.88-4.84l1.48-7.5a6.073,6.073,0,0,0-6.3-7.2l-7.2.46L11.78,3A2.755,2.755,0,0,0,9.28.02,1.23,1.23,0,0,0,9.02,0h0A5.285,5.285,0,0,0,4.46,2.56L0,9.98Z" transform="translate(13.86 0.88)" fill="#6f64ea"/>
+    <rect id="Rectangle" width="10" height="22" rx="2" transform="translate(0 9)" fill="#6f64ea" opacity="0.404"/>
+  </g>
+</svg>

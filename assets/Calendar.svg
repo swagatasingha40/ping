@@ -1,0 +1,8 @@
+<svg id="Calendar.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectangle" width="16" height="14.4" rx="2.4" transform="translate(0 1.6)" fill="#515887"/>
+  <path id="Path" d="M0,2.4A2.4,2.4,0,0,1,2.4,0H13.6A2.4,2.4,0,0,1,16,2.4V4.8H0Z" transform="translate(0 1.6)" fill="#fff"/>
+  <g id="Group" transform="translate(3.2)">
+    <path id="Path-2" data-name="Path" d="M.8,0a.8.8,0,0,1,.8.8V2.4A.8.8,0,0,1,0,2.4V.8A.792.792,0,0,1,.8,0Z" fill="#515887"/>
+    <path id="Path-3" data-name="Path" d="M.8,0a.8.8,0,0,1,.8.8V2.4A.8.8,0,0,1,0,2.4V.8A.792.792,0,0,1,.8,0Z" transform="translate(8)" fill="#515887"/>
+  </g>
+</svg>

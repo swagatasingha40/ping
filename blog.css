@@ -1,0 +1,405 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  cursor: pointer;
+  width: max-content;
+}
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #10163a;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+  overflow: visible !important;
+}
+
+.productname {
+  font-size: 2rem;
+  margin: 3rem 0rem;
+  color: #6f64ea;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.productcontainer {
+  display: grid;
+  grid-template-columns: 360px auto;
+  height: 486px;
+  margin-bottom: 5rem;
+  border-radius: 10px;
+  background-color: #151b41;
+}
+
+.closetag {
+  font-size: 11px;
+}
+
+.none {
+  display: none;
+}
+
+.shoecontainer {
+  position: relative;
+  background-image: linear-gradient(180deg, #d0e55f, #f1bd24);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.iconDiv {
+  background-color: #29305b;
+  display: flex;
+  color: white;
+  width: 160px;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 18px;
+  border-radius: 5px;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  user-select: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  background-color: #151b41;
+  color: #bec4e5;
+  margin-left: 10px;
+}
+
+.activetag {
+  background-color: #bec4e5;
+  color: #10163a;
+}
+
+.closetag {
+  user-select: none;
+
+  margin-left: 5px;
+}
+
+.date {
+  margin-left: 16px;
+}
+
+.shoedetails {
+  padding: 3rem 5rem;
+}
+
+.boldshoename {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.retail {
+  font-size: 1rem;
+  color: #bec4e5;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.5rem 0rem;
+}
+
+.learn {
+  background-image: linear-gradient(270deg, #5751bd, #7065ec);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 13px 36px;
+  border-radius: 6px;
+  margin-top: 3rem;
+  display: block;
+  width: max-content;
+  transition: all 0.3s ease;
+}
+
+.learn:hover {
+  transform: scale(1.1);
+}
+
+.medheader {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.shoecontainer img {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  width: 562px;
+  transform: translate(-50%, -50%) rotate(24deg);
+}
+
+p {
+  margin: 5rem 0rem;
+  font-size: 21px;
+  line-height: 42px;
+}
+
+.smheader {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.retails {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.spbetween {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns a:first-of-type {
+  border-radius: 6px;
+  border: 1px solid #363e74;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 32px;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}
+
+.btns a:last-of-type {
+  border-radius: 6px;
+  border: 1px solid #363e74;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  padding: 12px 50px;
+  font-weight: 600;
+}
+
+.btns a:hover {
+  background-image: linear-gradient(270deg, #5751bd, #7065ec);
+  border-color: transparent;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.time {
+  color: #bec4e5;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.col {
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.3rem 0rem;
+}
+
+.brandimg {
+  margin-right: 3rem;
+}
+
+.retails > div {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1250px) {
+  .wrapper {
+    padding: 0rem 5rem;
+  }
+
+  .boldshoename {
+    font-size: 2.2rem;
+  }
+
+  .productcontainer {
+    height: 444px;
+  }
+
+  .shoecontainer img {
+    width: 520px;
+  }
+}
+
+@media (max-width: 768px) {
+  .productcontainer {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .shoecontainer img {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: rotate(24deg);
+    width: 250px;
+  }
+
+  .shoecontainer {
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shoedetails {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 2rem;
+    padding-top: 3rem;
+  }
+
+  .shoecontainer img {
+    transform: rotate(0deg);
+  }
+
+  .calenderI {
+    width: 13px !important;
+  }
+
+  .productname,
+  .medheader {
+    font-size: 16px;
+    margin: 2rem 0rem;
+  }
+
+  .boldshoename {
+    font-size: 14px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .shoedetails {
+    padding: 2rem;
+  }
+
+  .retail {
+    font-size: 10px;
+  }
+
+  .price,
+  p {
+    font-size: 12px;
+  }
+
+  p {
+    margin: 1rem 0rem;
+    line-height: 28px;
+  }
+
+  .smheader {
+    font-size: 14px;
+  }
+
+  .iconDiv,
+  .learn {
+    width: max-content;
+    padding: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .col {
+    padding: 2px;
+  }
+
+  .learn {
+    padding: 8px 26px;
+    margin-top: 1.5rem;
+  }
+
+  .date {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .shoedetails img {
+    width: 220px;
+  }
+
+  .productcontainer {
+    margin-bottom: 2rem;
+  }
+
+  .retails > .flex {
+    flex-direction: column;
+  }
+
+  .retails > .flex > .flex {
+    width: 100%;
+  }
+
+  .brandimg {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+  }
+
+  .brand {
+    font-size: 15px;
+  }
+
+  .time {
+    font-size: 12px;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+
+  .btns a {
+    font-size: 10px;
+  }
+
+  .btns a:first-of-type {
+    padding: 9px 31px;
+  }
+
+  .blogs {
+    margin: 2rem 0rem;
+  }
+}
